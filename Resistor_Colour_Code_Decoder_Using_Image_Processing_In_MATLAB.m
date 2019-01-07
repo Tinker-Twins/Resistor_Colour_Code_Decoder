@@ -1,6 +1,6 @@
 clc;
 clear all;
-Photo='';  %Resistor image path
+Photo='';  %Resistor Image Path
 RGB=imread(Photo);
 matrixSize=size(RGB);
 Y=matrixSize(1,1);
@@ -92,43 +92,43 @@ colorArray(1,3)= colorArray(1,floor(j-2));
 
 i=1;
 for i=1:3
-    if colorArray(1,i)==65      %black
+    if colorArray(1,i)==65      %Black
         colorArray(1,i)=0;
     end
      
-    if colorArray(1,i)==66      %brown
+    if colorArray(1,i)==66      %Brown
         colorArray(1,i)=1;
     end  
     
-    if colorArray(1,i)==82      %red
+    if colorArray(1,i)==82      %Red
         colorArray(1,i)=2;
     end
     
-    if colorArray(1,i)==79      %orange
+    if colorArray(1,i)==79      %Orange
         colorArray(1,i)=3;
     end
     
-    if colorArray(1,i)==89      %yellow
+    if colorArray(1,i)==89      %Yellow
         colorArray(1,i)=4;
     end
     
-    if colorArray(1,i)==71      %green
+    if colorArray(1,i)==71      %Green
         colorArray(1,i)=5;
     end
     
-    if colorArray(1,i)==68      %blue
+    if colorArray(1,i)==68      %Blue
         colorArray(1,i)=6;
     end
     
-    if colorArray(1,i)==86      %violet
+    if colorArray(1,i)==86      %Violet
         colorArray(1,i)=7;
     end
     
-    if colorArray(1,i)==72      %grey
+    if colorArray(1,i)==72      %Grey
         colorArray(1,i)=8;
     end
     
-    if colorArray(1,i)==87      %white
+    if colorArray(1,i)==87      %White
         colorArray(1,i)=9;
     end
 end
